@@ -3,8 +3,8 @@ import React from 'react'
 
 const saved = () => {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl text-dark-200 font-bold">Saved</Text>
+    <View className="flex-1 bg-primary justify-center items-center">
+      <Text className="text-5xl text-white font-bold">Saved</Text>
     </View>
   )
 }
