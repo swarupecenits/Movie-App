@@ -23,7 +23,7 @@ const MovieCard = ({ id, poster_path, title, vote_average, release_date }: Movie
 
                 <View className='flex-row items-center justify-between'>
                     <Text className='text-xs font-medium mt-1 text-light-300'>{release_date?.split('-')[0]}</Text>
-                    <Text className='text-xs font-medium mt-1 uppercase text-light-300'>Movie</Text>
+                    {/* <Text className='text-xs font-medium mt-1 uppercase text-light-300'>Movie</Text> */}
                 </View>
             </TouchableOpacity>
         </Link>

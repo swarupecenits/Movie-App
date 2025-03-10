@@ -70,7 +70,7 @@ export default function Index() {
                   keyExtractor={(item) => item.movie_id.toString()}
                 />
 
-                <Text className="text-lg text-white font-bold mt-5 mb-4">Latest Movies</Text>
+                <Text className="text-lg text-white font-bold mt-5 mb-5">Latest Movies</Text>
                 <FlatList
                   data={movies}
                   renderItem={({ item }) => (
